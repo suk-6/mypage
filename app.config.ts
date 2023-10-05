@@ -1,8 +1,8 @@
 export default defineAppConfig({
   // Configure Content Wind here
-  cover: '/cover.jpg',
+  cover: '/cover.png',
   socials: {
-    twitter: 'Atinux',
-    github: 'Atinux/content-wind'
+    twitter: 'woosuknam',
+    github: 'suk-6'
   }
 })
