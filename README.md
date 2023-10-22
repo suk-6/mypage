@@ -5,13 +5,13 @@ My website made by [Content Wind](https://content-wind.nuxt.space) theme.
 ## Setup
 
 ```bash
-npm install
+bun generate
 ```
 
 ## Development
 
 ```bash
-npm run dev
+bun dev
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) to see your app.
