@@ -1,3 +1,10 @@
 export default defineNuxtConfig({
-  extends: 'content-wind'
-})
+	extends: "content-wind",
+	app: {
+		head: {
+			htmlAttrs: {
+				lang: "ko",
+			},
+		},
+	},
+});
