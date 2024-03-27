@@ -7,4 +7,9 @@ export default defineNuxtConfig({
 			},
 		},
 	},
+	modules: ["@nuxtjs/sitemap", "@nuxtjs/robots"],
+	robots: {
+		UserAgent: "*",
+		Disallow: "/",
+	},
 });

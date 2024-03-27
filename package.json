@@ -1,14 +1,18 @@
 {
-	"name": "mypage",
-	"private": true,
-	"scripts": {
-		"dev": "nuxi dev",
-		"build": "nuxi build",
-		"generate": "nuxi generate",
-		"preview": "nuxi preview"
-	},
-	"devDependencies": {
-		"content-wind": "latest",
-		"nuxt": "latest"
-	}
+  "name": "mypage",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
+  },
+  "devDependencies": {
+    "content-wind": "^1.1.2",
+    "nuxt": "^3.11.1"
+  },
+  "dependencies": {
+    "@nuxtjs/robots": "^3.0.0",
+    "@nuxtjs/sitemap": "^5.1.2"
+  }
 }
